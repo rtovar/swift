@@ -159,6 +159,7 @@
 		3CAFCAF71B0CBB6E006BA01C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Rocio Tovar";
 				TargetAttributes = {
@@ -409,6 +410,7 @@
 				3CAFCB201B0CBB6E006BA01C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CAFCB211B0CBB6E006BA01C /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +419,7 @@
 				3CAFCB231B0CBB6E006BA01C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

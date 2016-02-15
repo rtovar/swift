@@ -29,11 +29,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func calculateTapped(sender : AnyObject) {
-        tipCalc.total = Double((totalTextField.text as NSString).doubleValue)
+        tipCalc.total = Double((totalTextField.text! as NSString).doubleValue)
         let possibleTips = tipCalc.returnPossibleTips()
         var results = ""
         var keys = Array(possibleTips.keys)
-        sort(&keys)
+        keys.sortInPlace()
         for tipPct in keys {
             let tipValue = possibleTips[tipPct]!
             let prettyTipValue = String(format: "%.2f", tipValue)
